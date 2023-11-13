@@ -1,0 +1,11 @@
+[package]
+name = "pos_contract"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+
+[addresses]
+addr = '0x06c6b3aceaff83b9c5828a2b3d86b17b2a63a8cbb2cf8bc20c69894e794444c9'
+pos_contract = "0x0"
+sui = "0x2"
